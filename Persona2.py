@@ -2,7 +2,7 @@ class Persona2:
     def __init__(self):
         self.nombre=input("Ingrese el nombre: ")
         self.apellidos=input("Ingrese sus apellidos: ")
-        
+        #Comentario
     def mostrar(self):
         print("Nombre: ", self.nombre)
         print("Apellidos", self.apellidos)
