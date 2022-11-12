@@ -19,4 +19,4 @@ class Alumnos(Persona2):
 #Alumnos=Persona2()
 #Alumnos.mostrar()
 Alumno1=Alumnos()
-Alumnos.mostrarAlumno()
+Alumno1.mostrarAlumno()
