@@ -1,4 +1,4 @@
-class Cola:
+class Cola():
     def __init__(self):
         self.items=[]
     def datosdeCola(self):
@@ -9,3 +9,10 @@ class Cola:
         return self.items.pop()
     def size(self):
         return len(self.item)
+    
+    
+cola=Cola()
+print(cola.datosdeCola())
+cola.enqueue(10)
+cola.enqueue("jnkjjj")
+print(cola.size())
