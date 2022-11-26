@@ -15,12 +15,6 @@ cola=Cola()
 print(cola.datosdeCola())
 cola.enqueue(10)
 cola.enqueue("jnkjjj")
-<<<<<<< HEAD
-print(cola.size())
-cola.enqueue(10)
-cola.enqueue("Darwin Rosado")
-=======
 cola.enqueue(10)
 cola.enqueue("Dany")
->>>>>>> fbacd1e (Dos lineas)
 print(cola.size())
