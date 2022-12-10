@@ -1,4 +1,4 @@
-def selectionSort(nums):
+def orden_seleccion(nums):
     for i in range(len(nums)):
         valor_mas_bajo_indice = i
         for j in range(i + 1, len(nums)):
@@ -7,5 +7,5 @@ def selectionSort(nums):
 
 listaNumerosAleatorios = [5,2,1,8,4]
 print("Lista sin ordenar: " + str(listaNumerosAleatorios))
-selectionSort(listaNumerosAleatorios)
+orden_seleccion(listaNumerosAleatorios)
 print("Lista ordenada: " + str(listaNumerosAleatorios))
